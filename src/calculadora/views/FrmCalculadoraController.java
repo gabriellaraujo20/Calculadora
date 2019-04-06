@@ -31,7 +31,7 @@ public class FrmCalculadoraController extends Application {
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("frmCalculadora.fxml"));
         primaryStage.setTitle("Calculadora");
-        primaryStage.setScene(new Scene(root, 800, 500));
+        primaryStage.setScene(new Scene(root));
         primaryStage.show();
     }
     
