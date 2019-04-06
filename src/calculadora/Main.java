@@ -1,14 +1,15 @@
 package calculadora;
 
-import calculadora.views.TelaPrincipal;
+import calculadora.views.FrmCalculadoraController;
+
 
 /* @author gabri*/
 public class Main {
 
     public static void main(String[] args) {
-        TelaPrincipal telaPrincipal = new TelaPrincipal();
+        FrmCalculadoraController telaCalc = new FrmCalculadoraController();
         
-        telaPrincipal.setVisible(true);
+        telaCalc.show(args);
         
     }
 
