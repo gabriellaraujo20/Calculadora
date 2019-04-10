@@ -19,9 +19,9 @@ import javafx.stage.Stage;
  *
  * @author lucio
  */
-public class FrmCalculadoraController extends Application {
-
-    public FrmCalculadoraController() {
+public class TelaCalculadora extends Application {
+    
+    public TelaCalculadora() {
     }
 
     /**

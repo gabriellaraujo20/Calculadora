@@ -1,13 +1,13 @@
 package calculadora;
 
-import calculadora.views.FrmCalculadoraController;
+import calculadora.views.TelaCalculadora;
 
 
 /* @author gabri*/
 public class Main {
 
     public static void main(String[] args) {
-        FrmCalculadoraController telaCalc = new FrmCalculadoraController();
+        TelaCalculadora telaCalc = new TelaCalculadora();
         
         telaCalc.show(args);
         
