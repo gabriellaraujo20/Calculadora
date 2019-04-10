@@ -7,8 +7,10 @@ package Calculo.teste;
 
 /**
  *
- * @author Bruno
+ * @author Rômulo
  */
-public class teste {
-    
+public class SomaTeste {
+    public static void main(String[] args){
+        System.out.println("asdadasd");
+    }
 }
