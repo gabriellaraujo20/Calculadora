@@ -1,7 +1,8 @@
 package Calculo.teste;
 
 public class TesteMultiplicacao {
-public static void main(String[]args){
-    
-}
+
+    public double multiplicacao(double valor1 , double valor2){
+        return valor1*valor2;
+    }
 }
