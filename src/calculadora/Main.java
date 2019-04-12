@@ -1,17 +1,16 @@
 package calculadora;
 
 import Calculo.RaizQuadrada;
-import calculadora.views.FrmCalculadoraController;
+import calculadora.views.FrmPrincipal;
+
 
 /* @author gabriel*/
 public class Main {
 
     public static void main(String[] args) {
-        FrmCalculadoraController telaCalc = new FrmCalculadoraController();
-        RaizQuadrada raizQuadrada = new RaizQuadrada();
+        FrmPrincipal telaPrincipal  = new FrmPrincipal();
         
-        raizQuadrada.raizQuadrada(49);
-        telaCalc.show(args);
+        telaPrincipal.setVisible(true);
         
     }
 

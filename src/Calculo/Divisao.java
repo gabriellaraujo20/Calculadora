@@ -7,10 +7,11 @@ package Calculo;
 
 /**
  *
- * @author Rômulo
+ * @author lucio
  */
-public class Soma {
-    public double somar(double v1,double v2){
-        return v1 + v2;
+public class Divisao {
+    public double divide(double v1, double v2){
+      return v1 / v2;
     }
+    
 }
